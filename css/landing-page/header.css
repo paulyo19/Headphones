@@ -1,5 +1,7 @@
 header {
     padding: 30px 20px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 header::after{
@@ -43,16 +45,30 @@ header .header-buttons{
 
 header .header-buttons .blue-btn{
     background: #4C44C1;
-    padding: 10px 40px;
+    padding: 14px 46px;
     color: white;
     border-radius: 35px;
     text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    -webkit-box-shadow: 6px 15px 37px -10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 6px 15px 37px -10px rgba(0,0,0,0.3);
+    box-shadow: 6px 15px 37px -10px rgba(0,0,0,0.3)
+}
+
+header .header-buttons .blue-btn .fas{
+    margin-left: 15px;
 }
 
 header .header-buttons .orange-btn{
     background: #FEA83B;
-    padding: 10px 40px;
+    padding: 14px 46px;
     color: white;
     border-radius: 35px;
     text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    -webkit-box-shadow: 6px 15px 37px -10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 6px 15px 37px -10px rgba(0,0,0,0.3);
+    box-shadow: 6px 15px 37px -10px rgba(0,0,0,0.3)
 }
