@@ -1,0 +1,28 @@
+#top-jumbo{
+    background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 32%, rgba(193,109,232,1) 73%, rgba(234,129,201,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 32%,rgba(193,109,232,1) 73%,rgba(234,129,201,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 32%,rgba(193,109,232,1) 73%,rgba(234,129,201,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#top-jumbo::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#top-jumbo .left-side{
+    width: 35%;
+    display: inline-block;
+    float: left;
+}
+
+#top-jumbo .right-side{
+    width: 65%;
+    display: inline-block;
+    float: left;
+}
+#top-jumbo .right-side img{
+    width: 100%;
+}
+
