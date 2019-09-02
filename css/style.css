@@ -17,7 +17,12 @@ light purple    #E6CDF9
     padding: 0 20px;
 }
 
-.box-shadow-default {
+.container-fluid{
+    margin: 0 5%;
+    padding: 0 20px;
+}
+
+.box-shadow-down {
     -webkit-box-shadow: 6px 15px 37px -10px rgba(0,0,0,0.3);
     -moz-box-shadow: 6px 15px 37px -10px rgba(0,0,0,0.3);
     box-shadow: 6px 15px 37px -10px rgba(0,0,0,0.3)
