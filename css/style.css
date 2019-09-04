@@ -12,6 +12,7 @@ blue            #4C44C1
 light blue      #6066F2
 purple          #B286F8
 light purple    #E6CDF9
+grey            #d5e2ea
 */ 
 
 .container{
@@ -35,4 +36,9 @@ light purple    #E6CDF9
     -webkit-box-shadow: 0px 0px 40px -10px rgba(0,0,0,0.3);
     -moz-box-shadow: 0px 0px 40px -10px rgba(0,0,0,0.3);
     box-shadow: 0px 0px 40px -10px rgba(0,0,0,0.3);
+}
+
+input::placeholder{
+    color: #d5e2ea;
+    
 }
