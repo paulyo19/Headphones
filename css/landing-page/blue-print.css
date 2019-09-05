@@ -108,10 +108,86 @@ background: linear-gradient(135deg, rgba(24,0,135,1) 0%,rgba(96,102,242,1) 100%)
 
 /* tablet devices */
 @media only screen and (max-width: 1023px){
-    
+    #blue-print {
+        padding: 100px 0;
+    }
+    #blue-print .left-side{
+        width: 40%;
+    }
+    #blue-print .right-side{
+        width: 60%;
+    }
+    #blue-print .right-side h1 {
+        font-size: 3rem;
+        text-align: left;
+        font-weight: 700;
+        margin-bottom: 70px;
+        line-height: 1.2;
+        text-transform: capitalize;
+
+    }
+    #blue-print .right-side .info-box .col-1{
+        width: 40%;
+        float: left;
+        text-align: center;
+    }
+    #blue-print .right-side .info-box .col-1 .icon-container {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto 0;
+    }
+    #blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+        width: 90px;
+        height: 90px;
+    }
+    #blue-print .right-side .info-box .col-1 .icon-container .fab, #blue-print .right-side .info-box .col-1 .icon-container .fas {
+        font-size: 3rem;
+        top: 30px;
+        left: 40px;
+        position: absolute;
+    }
 }
 
 /* mobile devices */
 @media only screen and (max-width: 767px){
-    
+    #blue-print {
+        padding: 100px 0;
+    }
+    #blue-print .left-side{
+        width: 100%;
+    }
+    #blue-print .right-side{
+        width: 100%;
+    }
+    #blue-print .left-side img {
+        display: none;
+    }
+    #blue-print .right-side h1 {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 70px;
+        line-height: 1.2;
+        text-transform: capitalize;
+    }
+    #blue-print .right-side .info-box .col-1{
+        width: 40%;
+        float: left;
+        text-align: center;
+    }
+    #blue-print .right-side .info-box .col-1 .icon-container {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto 0;
+    }
+    #blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+        width: 90px;
+        height: 90px;
+    }
+    #blue-print .right-side .info-box .col-1 .icon-container .fab, #blue-print .right-side .info-box .col-1 .icon-container .fas {
+        font-size: 3rem;
+        top: 30px;
+        left: 40px;
+        position: absolute;
+    }
 }
