@@ -147,3 +147,17 @@
     margin-bottom: 1.5rem;
     margin-top: 70px;
 }
+
+@media only screen and (max-width: 1215px){
+    
+}
+
+/* tablet devices */
+@media only screen and (max-width: 1023px){
+    
+}
+
+/* mobile devices */
+@media only screen and (max-width: 767px){
+    
+}

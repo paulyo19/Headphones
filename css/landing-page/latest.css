@@ -249,3 +249,16 @@
 }
 
 
+@media only screen and (max-width: 1215px){
+    
+}
+
+/* tablet devices */
+@media only screen and (max-width: 1023px){
+    
+}
+
+/* mobile devices */
+@media only screen and (max-width: 767px){
+    
+}

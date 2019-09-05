@@ -7,14 +7,6 @@
 @import "landing-page/blue-print.css";
 @import "landing-page/latest.css";
 @import "landing-page/footer.css";
-/* 
-orange          #FEA83B
-blue            #4C44C1
-light blue      #6066F2
-purple          #B286F8
-light purple    #E6CDF9
-grey            #d5e2ea
-*/ 
 
 .container{
     max-width: 1200px;
@@ -41,5 +33,19 @@ grey            #d5e2ea
 
 input::placeholder{
     color: #d5e2ea;
+}
 
+/* desktop */
+@media only screen and (max-width: 1215px){
+    
+}
+
+/* tablet devices */
+@media only screen and (max-width: 1023px){
+    
+}
+
+/* mobile devices */
+@media only screen and (max-width: 767px){
+    
 }
