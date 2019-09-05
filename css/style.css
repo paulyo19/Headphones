@@ -6,6 +6,7 @@
 @import "landing-page/color-collection.css";
 @import "landing-page/blue-print.css";
 @import "landing-page/latest.css";
+@import "landing-page/footer.css";
 /* 
 orange          #FEA83B
 blue            #4C44C1
@@ -40,5 +41,5 @@ grey            #d5e2ea
 
 input::placeholder{
     color: #d5e2ea;
-    
+
 }
