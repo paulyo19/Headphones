@@ -154,6 +154,10 @@
 
 /* tablet devices */
 @media only screen and (max-width: 1023px){
+    #design-by .design-container .info-section h3 {
+        color: white;
+        font-size: 2rem;
+    }
     #design-by .design-container .icon-section .refresh-circle{
         left: 42%;
     }
