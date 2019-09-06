@@ -101,11 +101,6 @@ background: linear-gradient(135deg, rgba(24,0,135,1) 0%,rgba(96,102,242,1) 100%)
     color: #FEA83B;
 }
 
-
-@media only screen and (max-width: 1215px){
-    
-}
-
 /* tablet devices */
 @media only screen and (max-width: 1023px){
     #blue-print {

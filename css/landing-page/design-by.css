@@ -148,10 +148,6 @@
     margin-top: 70px;
 }
 
-@media only screen and (max-width: 1215px){
-    
-}
-
 /* tablet devices */
 @media only screen and (max-width: 1023px){
     #design-by .design-container .info-section h3 {

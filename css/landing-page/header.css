@@ -68,23 +68,14 @@ header .header-buttons .orange-btn{
     top: 20px;
 }
 
-@media only screen and (max-width: 1215px){
-    
-}
 
-/* tablet devices */
-@media only screen and (max-width: 1023px){
-    
-}
 
 /* mobile devices */
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 900px){
     header{
         width: 100%;
     }
     header .header-buttons .blue-btn, .orange-btn {
         display: none;
-    }
-    header .header-buttons .blue-btn {
     }
 }
